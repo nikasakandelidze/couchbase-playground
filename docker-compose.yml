@@ -1,0 +1,11 @@
+version: "3"
+services:
+  couchbase:
+    image: couchbase:latest
+    environment:
+      - COUCHBASE_SERVER_MEMORY_QUOTA=512
+      - COUCHBASE_CLUSTER_USERNAME=admin
+      - COUCHBASE_CLUSTER_PASSWORD=password
+    ports:
+      - "8091-8094:8091-8094"
+      - "11210:11210"

@@ -1,0 +1,29 @@
+{
+  "name": "couchbase-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikasakandelidze/couchbase-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikasakandelidze/couchbase-playground/issues"
+  },
+  "homepage": "https://github.com/nikasakandelidze/couchbase-playground#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "couchbase": "^4.2.8",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ottoman": "^2.3.4",
+    "qs": "^6.11.2",
+    "uuid": "^9.0.1"
+  }
+}
